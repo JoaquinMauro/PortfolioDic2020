@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    height: 1000px;    
+    background-size: cover;
+}
+.greyblue{    
+    background-color: #475561;
+}
+.grey{
+    background-color: #867B7C;
+}
+.white{
+    background-color: #ffffff    ;
+}
+
+/*navbar*/
+.nav-item{
+    font-size: 15px;
+}
+.nav-item:hover{    
+    background:#80deea;
+    transition-duration: 500ms;
+    transform: scale(1.1);    
+}
+.nav-item:active{    
+    background:#6db9c4;
+    transform: scale(1.0);    
+    transition-duration: 100ms
+}
+
+a.nav-link{  
+    color: black;  
+    cursor: pointer;
+    
+ }
+a.nav-link:hover{
+   color: white;
+}
+
+/*foto*/
+#selfie{
+    border-radius: 50%;
+    height: 200px;
+    width: auto;    
+}
+img:hover{
+    transform: scale(1.1) translate(15px);
+    transition-duration: 500ms;
+    opacity: 0.7;
+    box-shadow: -5px 5px 2px;
+    border:  #80deea solid 1px;
+}
+
+
+/*fondo titulo*/
+.titulo{
+    height: 300px;
+    background-image: url("https://image.freepik.com/foto-gratis/cerrar-manos-escribiendo-computadora-portatil_23-2148205575.jpg");
+    background-position: center;
+    background-attachment: absolute; 
+    background-size: 1400px;
+}
+.titulo::before{
+    background-color: rgba(0, 0, 0, 0.7);
+    content: '';
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 100%;
+}
+
+/*iconos*/
+.icon{
+    font-size: 30px;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
+
+/*texto*/
+a , h1{
+    font-family: 'Julius Sans One', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+progress{
+    background-color:#80deea;
+}
+section , .card{
+    box-shadow: -5px 5px 2px rgba(128,222,234,0.7);
+}
+a , li , label {
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 20px;
+}
+
+/*cartas*/
+.container , .card, .card-body{
+    border-radius: 5px;
+}
+
+section.cartas {
+    box-shadow: 0px 0px 0px;
+}
+ul{
+    list-style: none;
+}
