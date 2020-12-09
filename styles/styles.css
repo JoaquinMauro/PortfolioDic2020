@@ -70,6 +70,11 @@ p {
   box-shadow: -5px 5px 2px;
   border: #80deea solid 1px; }
 
+@media screen and (max-width: 480px) {
+  .aboutMe {
+    height: auto;
+    padding: 7rem 2rem 7rem 2rem; } }
+
 /*separadores*/
 .separador {
   height: 350px;
@@ -120,13 +125,15 @@ a:hover {
 footer {
   background-color: #475561; }
 
-/*cartas
-.container , .card, .card-body{
-    border-radius: 5px;
-}
+/*cartas*/
+.cartas {
+  margin-bottom: 4rem; }
+  .cartas p {
+    font-size: 15px; }
 
-section.cartas {
-}
-ul{
-    list-style: none;
-}*/
+.card {
+  transition: 800ms ease-in-out; }
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 800ms ease-in-out; }

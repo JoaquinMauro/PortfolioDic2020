@@ -5,9 +5,10 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
 		<title>Joaquin Gomez WD</title>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-		<link rel="stylesheet" href="./styles/styles.css">
 		<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 		<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="./styles/styles.css">
 		<script src="https://kit.fontawesome.com/a630e8dca6.js" crossorigin="anonymous"></script>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -19,7 +20,7 @@
 
 		<section class="container-fluid titulo d-flex align-items-center justify-content-center">
 			<div class="row pt-3">
-				<div class="col">
+				<div class="col animate__animated animate__fadeInDown">
 					<h1 class="text-center text-white">Joaquin Gomez</h1>
 					<div class="col"><h2 class="text-center text-white">Desarrollador web</h2></div>
 				</div>
@@ -46,14 +47,14 @@
             </div>
         </nav>
 
-		<section class="aboutMe container-fluid white d-flex">
+		<section class="aboutMe container-fluid white d-flex ">
 			<div class="row align-items-center justify-content-center">				
-				<div class="col-xl-3 col-lg-2 col-xs-12 text-center" >
-					<img src="imagen/selfie.jpg" id="selfie" alt="Joaquin Gomez">
+				<div class="col-xl-3 col-lg-2 col-xs-12 text-center">
+					<img src="imagen/selfie.jpg" id="selfie" alt="Joaquin Gomez" class="animate__animated animate__fadeInLeftBig">
 				</div>		
 				<div class="col-xl-9 col-lg-10 col-xs-12">
 					<h2 class="font-weight-bold text-center text-lg-left">Hola!</h2>	
-					<p class="text-center text-lg-left ">Mi nombre es Joaquin Gomez y soy aspirante a <strong>Desarrollador Front End</strong>.<br>
+					<p class="text-center text-lg-left ml-3">Mi nombre es Joaquin Gomez y soy aspirante a <strong>Desarrollador Front End</strong>.<br>
 					Aqui van a poder ver mis proyectos realizados con HTML5 y CSS3 como asi también practicas en Wordpress, Bootstrap, SASS y React. 
 					Tenes una idea para tu página? Queres hacer una app para tu proyecto? No dudes en contactarme!
 					</p>
@@ -86,35 +87,33 @@
 									
 			</div>
 		</section>
-
-		<section class="cartas container mt-4">
-			<div class="row justify-content-between">
-				<div>
-		  			<div class="card" style="width: 15rem;">
-						<img src="https://lineadecodigo.com/wp-content/uploads/2014/04/html5.png" class="card-img-top">
-						<div class="card-body bg-dark">
-				  			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		
+		<h2 class="text-center">Por que Conmigo?</h2>
+		<p class="text-center mx-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi, vero officiis suscipit voluptas doloribus necessitatibus quas iusto praesentium cum amet ullam, rem voluptatum incidunt! Asperiores voluptates ducimus eveniet tempore, ipsum, maxime debitis recusandae incidunt voluptatem non perspiciatis sit sapiente nesciunt nihil quidem magnam aperiam esse laboriosam quas, voluptas ut?</p>
+		
+		<section class="cartas container my-5">			
+			<div class="row justify-content-around">
+				<div class="col-6">
+					<a href="https://joaquinmauro.github.io/CODERHOUSE/" target="blank">
+						<div class="card">
+							<img src="imagen/seven.PNG" class="card-img-top">
+							<div class="card-body bg-dark">
+								<h3 class="card-title text-white">Seven Custom Guitars</h3>
+								<p class="text-white card-text">Luthería de autor. Reparación de guitarras y bajos.</p>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>	
 
-				<div>
-					<div class="card" style="width: 15rem;">
-					  <img src="https://lineadecodigo.com/wp-content/uploads/2014/04/html5.png" class="card-img-top">
+				<div class="col-6">
+					<div class="card">
+					  <img src="imagen/veg.PNG" class="card-img-top">
 					    <div class="card-body bg-dark">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<h3 class="card-title text-white">Veganismo y Punto</h3>
+							<p class="text-white card-text">Página conceptual sobre Veganismo. Cultura y recetas.</p>
 					    </div>
 				    </div>
 				</div>
-				
-				<div>
-					<div class="card" style="width: 15rem;">
-					  <img src="https://lineadecodigo.com/wp-content/uploads/2014/04/html5.png" class="card-img-top">
-					    <div class="card-body bg-dark">
-							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					    </div>
-				    </div>
-			    </div>
 		</section>	
 
 		<div class="separador3"></div>
