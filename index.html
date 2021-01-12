@@ -126,7 +126,7 @@
 
 		<div class="separador3"></div>
 
-
+	<!--contacto-->
 		<section class="container white mt-4 p-4 ">
 			<h2 class="text-center" id="contacto">Contactame!</h2>
 			<div class="row justify-content-center">
@@ -138,9 +138,20 @@
 						</div>	
 							<label for="Correo Electronico">Correo Electronico</label>					
 							<input type="email" name="Correo Electronico" id="Correo Electronico" placeholder="ejemplo@aol.com.ar" class="form-control">
+						
+							<p class="text-center mt-3">Motivo de tu consulta?</p>
+							<div class="custom-control custom-control-inline custom-radio">
+								<input type="radio" name="consulta" id="ux" class="custom-control-input">
+								<label for="ux" class="custom-control-label">UX/UI</label>
+							</div>
+							<div class="custom-control custom-control-inline custom-radio">
+								<input type="radio" name="consulta" id="desarrollo" class="custom-control-input">
+								<label for="desarrollo" class="custom-control-label">Desarrollo</label>
+							</div>
+												
 						<div class="form-group"></div>
 							<label for="Comentario">Comentarios</label>
-							<textarea name="Comentario" id="Comentario" cols="20" rows="3" placeholder="Comentario" class="form-control"></textarea>		
+							<textarea name="Comentario" id="Comentario" cols="20" rows="5" placeholder="Comentario" class="form-control"></textarea>		
 						</div>
 					</form>
 				</div>
@@ -149,22 +160,21 @@
 			
 			<button type="button" class="btn btn-primary btn-block mt-2" data-toggle="modal" data-target="#exampleModal">
 				Consultame!</button>
-
 				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 					<div class="modal-dialog">
 					  <div class="modal-content">
 						<div class="modal-header">
-						  <h5 class="modal-title" id="exampleModalLabel">Muchas gracias!</h5>
-						  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						  </button>
+							<h5 class="modal-title" id="exampleModalLabel">Muchas gracias!</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
 						<div class="modal-body">
-						  <h3>A la brevedad te estaré respondiendo</h3>
+						  	<h3>A la brevedad te estaré respondiendo</h3>
 						</div>
 						<div class="modal-footer">
-						  <button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
-						  <button type="button" class="btn btn-primary">Realizar otra consulta</button>
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Salir</button>
+							<button type="button" class="btn btn-primary">Realizar otra consulta</button>
 						</div>
 					  </div>
 					</div>
