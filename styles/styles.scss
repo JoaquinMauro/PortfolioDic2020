@@ -17,6 +17,7 @@ $font:'Julius Sans One', sans-serif;
 
 *{
     font-family: 'Open Sans', sans-serif;  
+    scroll-behavior: smooth;
 }
 /*texto*/
 a , h1{
@@ -150,6 +151,10 @@ a:hover{
 }
 footer{
     background-color: $greyblue;
+}
+
+#skills img{
+    height: 100px;
 }
 
 
