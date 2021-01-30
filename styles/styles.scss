@@ -235,3 +235,12 @@ a:hover{
 footer{
     background-color: $greyblue;
 }
+
+.modal-content{
+    backdrop-filter: blur(100px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#exampleModal{
+    backdrop-filter: blur(2px);
+}
