@@ -18,18 +18,21 @@ $font:'Julius Sans One', sans-serif;
 *{
     font-family: 'Open Sans', sans-serif;  
     scroll-behavior: smooth;
+    /*background-color: black;*/
 }
 /*texto*/
 a , h1{
     font-family: $font;
+    /*color: $white;*/
 }
 h2{
     font-weight: bolder;
+    /*color: $white;*/
 }
 p{
     font-size: 20px;
+    /*color: $white;*/
 }
-
 
 /*fondo titulo*/
 .titulo{
@@ -105,18 +108,20 @@ p{
 /*separadores*/
 .separador{
     @include separador;
-    @include shadow;
-    background: url("https://i.pinimg.com/originals/f6/20/a1/f620a179ca1acfd15a0754701677fb58.jpg") fixed center;    
+    background: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") fixed center;    
 }
 .separador2{
     @include separador;
-    @include shadow;
-    background: url("https://www.wallpaperup.com/uploads/wallpapers/2015/04/01/652126/f3b51fd4f47e9d8f4d59117aa9671789.jpg") fixed center ;    
+    background: url("https://images.pexels.com/photos/801787/pexels-photo-801787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") fixed center ;    
 }
 .separador3{
     @include separador;
-    @include shadow;
     background: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/cW5lDBG/glowing-light-blue-abstract-programming-code-background-on-dark-software-or-script-development-concept_rgg0rnttyl_thumbnail-1080_01.png") fixed center ;    
+}
+
+.separador4{
+    @include separador;
+    background: url("https://images.pexels.com/photos/240572/pexels-photo-240572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") fixed center ;    
 }
 
 /*Links*/
@@ -149,12 +154,18 @@ a:hover{
     transform: scale(1.1);
     transition-duration: 500ms;
 }
-footer{
-    background-color: $greyblue;
+
+#certificaciones img{
+    height: 100px;
 }
 
-#skills img{
-    height: 100px;
+#certificaciones a{
+    transition-duration: 500ms;
+}
+
+#certificaciones a:hover{
+    transform: scale(1.1);
+    transition-duration: 500ms;
 }
 
 
@@ -218,4 +229,9 @@ footer{
 }
 .tarjeta .card:hover img{
 	transform: scale(1.3) rotate(10deg);	 
+}
+
+/*footer*/
+footer{
+    background-color: $greyblue;
 }
